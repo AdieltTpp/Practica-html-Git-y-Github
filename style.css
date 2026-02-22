@@ -1,4 +1,27 @@
-Titulo{
+*{
+    font-family: Arial, sans-serif;
+    background-color: rgb(163, 241, 255);
+    color: rgb(0, 0, 0);
+}
+
+.Titulo {
     color: rgb(5, 3, 113);
     text-align: center;
+    font-size: 45px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: 0 auto;
+    background-color: blue;
+}
+nav {
+    background-color: rgb(5, 3, 113);
+    padding: 10px;
+    border-radius: 5px;
 }
